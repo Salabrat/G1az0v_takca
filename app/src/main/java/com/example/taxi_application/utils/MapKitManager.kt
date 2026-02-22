@@ -8,7 +8,7 @@ object MapKitManager {
     
     // ВАЖНО: Замените на ваш реальный API ключ Yandex MapKit
     // Получить можно здесь: https://developer.tech.yandex.ru/services/
-    private const val YANDEX_MAPKIT_API_KEY = "YOUR_YANDEX_MAPKIT_API_KEY"
+    private const val YANDEX_MAPKIT_API_KEY = "16c1e9ba-e81c-41e0-8296-05bd2edbceb8"
     
     fun initialize(context: Context) {
         if (!initialized) {
