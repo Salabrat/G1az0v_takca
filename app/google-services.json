@@ -1,0 +1,38 @@
+{
+  "_comment": "ЗАМЕНИТЕ ЭТОТ ФАЙЛ на настоящий google-services.json из Firebase Console!",
+  "_instructions": [
+    "1. Откройте https://console.firebase.google.com",
+    "2. Создайте проект 'Такси Глазов'",
+    "3. Добавьте Android-приложение: com.example.taxi_application",
+    "4. Скачайте google-services.json и замените этот файл",
+    "5. Включите Phone Authentication в Firebase Auth",
+    "6. Создайте Firestore Database"
+  ],
+  "project_info": {
+    "project_number": "000000000000",
+    "project_id": "taxi-glazov",
+    "storage_bucket": "taxi-glazov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+        "android_client_info": {
+          "package_name": "com.example.taxi_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "REPLACE_WITH_YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

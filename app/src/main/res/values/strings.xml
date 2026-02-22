@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Такси Глазов</string>
+    <string name="app_description">Быстро. Удобно. Надёжно.</string>
+    <string name="order_taxi">Заказать такси</string>
+    <string name="from_address">Откуда</string>
+    <string name="to_address">Куда</string>
+    <string name="tariff_economy">Эконом</string>
+    <string name="tariff_comfort">Комфорт</string>
+    <string name="tariff_business">Бизнес/Минивэн</string>
+    <string name="payment_cash">Наличными</string>
+    <string name="payment_sbp">Перевод (СБП)</string>
+    <string name="searching_driver">Ищем водителя...</string>
+    <string name="cancel_order">Отменить заказ</string>
+    <string name="rate_trip">Оцените поездку</string>
+    <string name="history">История поездок</string>
+    <string name="profile">Профиль</string>
+    <string name="my_location">Моё местоположение</string>
+    <string name="permission_location_rationale">Для определения вашего местоположения необходим доступ к геолокации</string>
+</resources>
