@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.taxi_application.data.model.GlazovDistrict
 import com.example.taxi_application.data.model.TaxiOrder
-import com.example.taxi_application.ui.components.YandexMapView
+import com.example.taxi_application.ui.components.OsmMapView
 import com.example.taxi_application.ui.components.OrderBottomSheet
 import com.example.taxi_application.ui.theme.*
 import com.example.taxi_application.ui.viewmodel.MapViewModel
@@ -70,11 +70,11 @@ fun MainMapScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
 
-        // ─── Yandex Карта Глазова ─────────────────────────────────────────────
-        YandexMapView(
+        // ─── OpenStreetMap Карта Глазова ──────────────────────────────────────
+        OsmMapView(
             modifier = Modifier.fillMaxSize(),
             center = mapCenter,
-            zoom = 14f,
+            zoom = 14.0,
             userLocation = currentLocation,
             nearbyDrivers = nearbyDrivers,
             onMapClick = { latLng ->

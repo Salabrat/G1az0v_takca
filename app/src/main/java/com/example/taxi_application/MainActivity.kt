@@ -17,7 +17,6 @@ import com.example.taxi_application.ui.viewmodel.AuthViewModel
 import com.example.taxi_application.ui.viewmodel.MapViewModel
 import com.example.taxi_application.ui.viewmodel.OrderViewModel
 import com.example.taxi_application.ui.viewmodel.OrderViewModelFactory
-import com.example.taxi_application.utils.MapKitManager
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,9 +25,6 @@ class MainActivity : ComponentActivity() {
 
         val db = AppDatabase.getInstance(applicationContext)
         val repository = TaxiRepository(db)
-        
-        // Инициализация Yandex MapKit
-        MapKitManager.initialize(this)
 
         setContent {
             Taxi_applicationTheme {
@@ -49,15 +45,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-    
-    override fun onStart() {
-        super.onStart()
-        MapKitManager.onStart()
-    }
-    
-    override fun onStop() {
-        super.onStop()
-        MapKitManager.onStop()
     }
 }
